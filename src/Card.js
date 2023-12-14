@@ -25,7 +25,7 @@ function Card({name, rating, hours, address, description, price, pic}){
             <div className="card-text">
               <div className="row">
                 <div className="justify-left-right">
-                  <label>{name.substring(0, 25)}</label>
+                  <h5>{name.substring(0, 25)}</h5>
                   <div className="rating">
                     <span className={stars[0]}></span>
                     <span className={stars[1]}></span>
